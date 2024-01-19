@@ -1,0 +1,25 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.head {
+    background: linear-gradient(80deg, #9b7ae2 0%, rgba(7, 2, 17, 0) 100%), url("B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.happy {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.text-title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900
+}
