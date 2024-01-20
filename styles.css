@@ -3,7 +3,7 @@ body {
 }
 
 .head {
-    background: linear-gradient(80deg, #c8b8ea 0%, rgba(7, 2, 17, 0) 100%), url("B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png");
+    background: linear-gradient(80deg, #361b72c6 0%, rgba(7, 2, 17, 0) 100%), url("B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -79,7 +79,6 @@ body {
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
-    padding-left: 120px;
 
 }
 
@@ -88,20 +87,20 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    border-top: 24px;
-    padding-left: 120px;
 
 }
 
-.btn {
+.welcomes {
+    margin-left: 120px;
+}
+
+.btn2 {
     color: #0f0d0d;
     font-size: 20px;
     font-weight: 700;
-    border-top: 48px;
-    margin-left: 160px;
-    margin-bottom: 140px;
+     margin-bottom: 140px;
     margin-top: 48px;
-    margin-right: 600px;
+
 
 }
 
@@ -124,6 +123,7 @@ image {
     fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: rgb(248, 242, 242);
 }
 
 .p1 {
@@ -145,8 +145,15 @@ image {
     font-weight: 700;
 }
 
+.ncd {
+    width: 33.3%;
+    gap: 33px;
+    margin-left: 100px;
+}
+
+
 .best {
-    color: #F00;
+    color: rgb(19, 17, 17);
     font-size: 24px;
     font-weight: 500;
 }
@@ -163,6 +170,7 @@ image {
     font-size: 20px;
     font-weight: 400;
     padding-top: 22px;
+
 }
 
 .soon {
@@ -170,9 +178,10 @@ image {
 }
 
 .pic {
-    border: 10px solid red;
+    margin-left: 150px;
+    border: 10px solid #F00;
     border-radius: 50%;
-    padding: 17px 14px 10px 14px;
+    padding: 20px 14px 0px 14px;
 }
 
 .sal {
@@ -180,7 +189,78 @@ image {
     font-size: 48px;
     font-weight: 700;
 }
-.sit{
-    margin-left: 80px;
 
+.sit {
+    margin-left: 80px;
+    width: 34%;
+
+}
+
+.rt {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.rt div {
+    width: 100%;
+}
+
+.orenge {
+    position: absolute;
+    margin-top: 450px;
+}
+
+.orenge img {
+    width: 100%;
+}
+
+.rectangle {
+    z-index: 2;
+}
+
+.bpic {
+    border-radius: 16px 16px 0px 0px;
+    background: url(<path-to-image>), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+    margin-left: 33%;
+}
+
+.dis {
+    margin-top: -700px;
+    margin-left: 1350px;
+    position: relative;
+}
+
+.bag img {
+    border-radius: 16px;
+    width: 33%;
+    margin-top: 200px;
+}
+
+.ring img {
+    border-radius: 16px;
+    width: 33%;
+    margin-top: 24px;
+
+}
+
+input {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+.btn3{
+    color: #0f0d0d;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F00;
+    margin-left: -10px;
+    border-radius: 0 50px 50px 0;
+    width: 200px;
+    height: 78px;
 }
